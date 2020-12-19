@@ -82,7 +82,7 @@ The official project provides libraries to write nodes in C++ and Python, but th
 
 #### goroslib vs rosgo
 
-rosgo is currently unmaintained; furthermore, it requires compilation of `.msg` files and doesn't support UDP.
+rosgo is currently unmaintained; furthermore, it requires compilation of `.msg` files, doesn't support UDP, doesn't support actions.
 
 ### Full list of features
 
