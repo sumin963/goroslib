@@ -1,21 +1,20 @@
-//nolint:golint
-package actionlib
+package actionlib //nolint:golint
 
 import (
 	"github.com/aler9/goroslib/pkg/msg"
 )
 
-type TwoIntsGoal struct {
+type TwoIntsGoal struct { //nolint:golint
 	msg.Package `ros:"actionlib"`
-	A           int64
-	B           int64
+	A           int64 //nolint:golint
+	B           int64 //nolint:golint
 }
 
-type TwoIntsResult struct {
+type TwoIntsResult struct { //nolint:golint
 	msg.Package `ros:"actionlib"`
-	Sum         int64
+	Sum         int64 //nolint:golint
 }
 
-type TwoIntsFeedback struct {
+type TwoIntsFeedback struct { //nolint:golint
 	msg.Package `ros:"actionlib"`
 }
