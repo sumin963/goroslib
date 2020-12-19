@@ -9,7 +9,7 @@ type GetMapGoal struct {
 	msg.Package `ros:"nav_msgs"`
 }
 
-type GetMapRes struct {
+type GetMapResult struct {
 	msg.Package `ros:"nav_msgs"`
 	Map         OccupancyGrid
 }

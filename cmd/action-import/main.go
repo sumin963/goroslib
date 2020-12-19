@@ -96,7 +96,7 @@ func run() error {
 		return err
 	}
 
-	resultDef, err := msgconv.ParseMessageDefinition(goPkgName, rosPkgName, name+"Res", parts[1])
+	resultDef, err := msgconv.ParseMessageDefinition(goPkgName, rosPkgName, name+"Result", parts[1])
 	if err != nil {
 		return err
 	}

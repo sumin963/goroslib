@@ -10,7 +10,7 @@ type TestGoal struct {
 	Goal        int32
 }
 
-type TestRes struct {
+type TestResult struct {
 	msg.Package `ros:"actionlib"`
 	Result      int32
 }

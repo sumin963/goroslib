@@ -11,7 +11,7 @@ type TwoIntsGoal struct {
 	B           int64
 }
 
-type TwoIntsRes struct {
+type TwoIntsResult struct {
 	msg.Package `ros:"actionlib"`
 	Sum         int64
 }

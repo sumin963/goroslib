@@ -28,7 +28,7 @@ type TestRequestGoal struct {
 	PauseStatus     time.Duration
 }
 
-type TestRequestRes struct {
+type TestRequestResult struct {
 	msg.Package    `ros:"actionlib"`
 	TheResult      int32
 	IsSimpleServer bool
