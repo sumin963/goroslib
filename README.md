@@ -207,6 +207,7 @@ make test
   * https://wiki.ros.org/Implementing%20Client%20Libraries
   * http://wiki.ros.org/Names
   * http://wiki.ros.org/actionlib
+  * http://wiki.ros.org/actionlib/DetailedDescription
 * APIs
   * https://wiki.ros.org/ROS/Master_API
   * https://wiki.ros.org/ROS/Parameter%20Server%20API
