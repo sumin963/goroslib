@@ -1,4 +1,4 @@
-package ackermann_msgs
+package ackermann_msgs //nolint:golint
 
 import "github.com/aler9/goroslib/pkg/msg"
 
