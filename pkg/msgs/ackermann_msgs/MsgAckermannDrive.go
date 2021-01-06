@@ -1,6 +1,6 @@
 package ackermann_msgs //nolint:golint
 
-import "github.com/aler9/goroslib/pkg/msg"
+import "github.com/sumin963/goroslib/pkg/msg"
 
 type AckemannDrive struct {
 	msg.Package `ros:"ackermann_msgs"`
