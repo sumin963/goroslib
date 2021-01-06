@@ -1,8 +1,8 @@
 package ackermann_msgs //nolint:golint
 
 import (
-	"github.com/aler9/goroslib/pkg/msg"
-	"github.com/aler9/goroslib/pkg/msgs/std_msgs"
+	"github.com/sumin963/goroslib/pkg/msg"
+	"github.com/sumin963/goroslib/pkg/msgs/std_msgs"
 )
 
 type AckemannDriveStamped struct {
