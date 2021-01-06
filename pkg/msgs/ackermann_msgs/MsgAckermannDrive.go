@@ -4,9 +4,9 @@ import "github.com/sumin963/goroslib/pkg/msg"
 
 type AckemannDrive struct {
 	msg.Package `ros:"ackermann_msgs"`
-	steering_angel float32
-	steering_angel_velocitiy float32
-	speed float32
-	acceleration float32
-	jerk float32
+	Steering_angel float32
+	Steering_angel_velocitiy float32
+	Speed float32
+	Acceleration float32
+	Jerk float32
 }
